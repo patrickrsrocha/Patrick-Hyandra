@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   /* ------------- CONTADOR DETALHADO ------------- */
   const contadorEl = document.getElementById("contador");
-  const inicio = new Date("2024-06-27");
+  const inicio = new Date("2024-07-14");
 
   function atualizarContador() {
     const agora = new Date();
