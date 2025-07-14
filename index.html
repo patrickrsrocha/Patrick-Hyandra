@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nosso 1 Ano de Amor</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="01.js" defer></script>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>❤️ Nosso 1 Ano de Amor ❤️</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#linha-do-tempo">Linha do Tempo</a></li>
+                <li><a href="#carta">Cartinha</a></li>
+                <li><a href="#sonhos">Sonhos</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro" id="inicio">
+            <p class="frase">Com você, todos os dias são os melhores dias da minha vida.</p>
+            <p id="contador"></p>
+        </section>
+
+        <section class="galeria" id="galeria">
+            <div class="foto-container">
+                <img src="imagens/foto01.jpeg" alt="Foto 1">
+                <p class="legenda">Seu sorriso é meu maior presente.</p>
+            </div>
+            <div class="foto-container">
+                <img src="imagens/foto02.jpeg" alt="Foto 2">
+                <p class="legenda">Cada momento ao seu lado é único.</p>
+            </div>
+            <div class="foto-container">
+                <img src="imagens/foto03.jpeg" alt="Foto 3">
+                <p class="legenda">Eu te amo mais a cada dia.</p>
+            </div>
+        </section>
+        <section class="galeria" style="display: flex; justify-content: center; margin-top: 30px;">
+            <div class="foto-container" style="width: 100%; max-width: 400px;">
+                <img src="imagens/foto10.jpeg" alt="Foto 4" style="width: 100%; height: auto; border-radius: 10px;">
+                <p class="legenda">Nosso amor é como um filme lindo em tela cheia.</p>
+            </div>
+        </section>
+
+        <section class="carrossel">
+            <h2>Momentos Inesquecíveis</h2>
+            <div class="carrossel-container">
+                <img id="carrossel-img" src="imagens/foto05.jpg" alt="Carrossel">
+            </div>
+        </section>
+
+        <section class="player-section">
+            <div class="music-player">
+                <div class="cover">
+                    <img src="imagens/foto14.jpeg" alt="Foto do casal">
+                </div>
+                <h2>Nossa Música Especial</h2>
+                <p>Eu te amo!</p>
+
+                <audio id="audio-player" src="imagens/musica.mp3"></audio>
+
+                <div class="controls">
+                    <button id="prev">&#9664;&#9664;</button>
+                    <button id="play">&#9654;</button>
+                    <button id="pause" style="display:none;">&#10073;&#10073;</button>
+                    <button id="next">&#9654;&#9654;</button>
+                </div>
+
+                <input type="range" id="progress" value="0" step="1">
+
+                <label for="volume" style="color: white;">Volume</label>
+                <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+
+                <p id="timer">0:00 / 0:00</p>
+            </div>
+
+        </section>
+
+
+        <section class="timeline" id="linha-do-tempo">
+            <h2>Nossa História</h2>
+            <div class="evento">
+                <h3>24/05/2024</h3>
+                <p>Primeira vez que nos vimos pessoalmente.</p>
+            </div>
+            <div class="evento">
+                <h3>14/07/2024</h3>
+                <p>O dia em que tudo "começou".</p>
+            </div>
+            <div class="evento">
+                <h3>14/09/2024</h3>
+                <p>Oficializado com aliança 💖.</p>
+            </div>
+            <div class="evento">
+                <h3>14/07/2025</h3>
+                <p>Estamos completando 1 ano de namoro.</p>
+            </div>
+        </section>
+
+        <section class="carta" id="carta">
+            <button id="btn-carta">📜 Clique para ler minha cartinha ❤️</button>
+            <div id="texto-carta" class="oculto">
+                <div class="lista-amor">
+                    <img src="/imagens/alianca.jpg" alt="Sua foto" class="foto-circular">
+                    <p>
+                        meu amor, essa é somente uma pequena demonstração do meu amor por você!
+                        quero agradecer a você por tudo o que você me proporcionou neste ano, todas os momentos,
+                        felicidades, experiências, sorrisos, choros, alegrias, tristezas, aprendizados e superações que
+                        vivemos juntos.
+                        cada instante ao seu lado faz parte da nossa história, e mesmo nos dias mais difíceis, é com
+                        você que eu sempre quero estar.
+                        obrigado por ser minha companhia, meu apoio, e também por fazer eu me desafiar constantemente a
+                        me tornar uma pessoa melhor. saiba que eu sempre estarei aqui por você amor, conte comigo para
+                        qualquer coisa! que venham muitos outros anos, meu amor, com ainda mais amor, respeito,
+                        confiança e cuidado entre nós.
+                        FELIZ 1 ANO AO MEU LADO AMOR!!! 🥰🥰 <br>
+                       EU TE AMO AO INFINITO E ALÉM!!!! ❤️❤️❤️<br>
+                        agora segue ai essa super-lista. 😘🥰
+                    </p>
+                    <h3>Coisas que amo em você, minha princesa</h3>
+                    <ol>
+                        <li>Seu sorriso</li>
+                        <li>Seu abraço</li>
+                        <li>Seu jeito doce</li>
+                        <li>Seu carinho</li>
+                        <li>Seu olhar</li>
+                        <li>Sua sinceridade</li>
+                        <li>Seu companheirismo</li>
+                        <li>Sua risada</li>
+                        <li>Sua voz</li>
+                        <li>Seu coração</li>
+                        <li>O modo como me olha</li>
+                        <li>Seu jeito de cuidar de mim</li>
+                        <li>Sua força</li>
+                        <li>Seu toque</li>
+                        <li>Seu beijo</li>
+                        <li>Seu jeito único</li>
+                        <li>Sua bondade</li>
+                        <li>Seu cheiro</li>
+                        <li>Como me faz feliz</li>
+                        <li>TUDO ❤️</li>
+                    </ol>
+
+                    <p class="assinatura">— Patrick</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sonhos" id="sonhos">
+            <h2>Nossos Sonhos</h2>
+            <ul>
+                <li>❤️ CASAMENTO ❤️</li>
+                <li>❤️ Morarmos Juntos ❤️</li>
+                <li>❤️ Fazer vários filhos (10) ❤️</li>
+            </ul>
+        </section>
+
+        <section class="quiz" id="quiz">
+            <h2>Quiz: Você se lembra?</h2>
+            <div id="quiz-container">
+                <p id="pergunta">Carregando pergunta...</p>
+                <div id="opcoes"></div>
+                <button id="proxima" onclick="proximaPergunta()" style="display:none;">Próxima</button>
+                <p id="resultado"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Feito com muito amor ❤️ - Seu futuro marido! =)</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
